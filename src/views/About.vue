@@ -3,6 +3,7 @@
   <div class="v1-box">
       <div v-for="(item,index) in 10" :key="index" class="v1-box-item">
           {{index}}
+          {{abc}}
       </div>
   </div>
 </div>
@@ -10,6 +11,14 @@
 
 </template>
 
+<script>
+export default {
+  name: '',
+  props: {
+    abc: Array,
+  }
+}
+</script>
 <style lang="scss" scoped>
 // .wrapper{
 //   width: 500px;

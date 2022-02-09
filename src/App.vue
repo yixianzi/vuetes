@@ -4,7 +4,10 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/cssTest">cssTest</router-link> |
-      <router-link to="/pdfTest">pdfTest</router-link>
+      <router-link to="/pdfTest">pdfTest</router-link>|
+      <router-link to="/bbz">bbz</router-link>|
+
+
     </div>
     <router-view/>
   </div>

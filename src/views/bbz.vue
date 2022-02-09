@@ -1,13 +1,18 @@
 <template>
   <div>
-      <h1>cssTest</h1>
-      <div class="t1Wrapper"></div>
+      <h1>bbz</h1>
+      <div class="123">
+          <router-link to="/test1">guo</router-link> |
+          <router-link to="/test2">xiaogouer</router-link> 
+      </div>
+      <div class="lhy">
+        <router-view/>
+      </div>
   </div>
 </template>
 
 <script>
 export default {
-    
 
 }
 </script>
